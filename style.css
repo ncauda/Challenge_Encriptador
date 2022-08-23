@@ -1,0 +1,184 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    background-image: url(imagenes/fondo_claro.jpg);
+    margin: 2% 2% 0 0;
+
+}
+
+header {
+    display: flex; 
+    float: right;
+}
+
+main {
+    display: flex;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.caja{
+    width: 20%;
+    position: relative;
+    margin: 5 5 5 5;
+    float:left;
+}
+
+.tituloCajas {
+    text-align: center;
+    color: white;
+    font-size: 130%;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+    font-size: 110%;
+
+}
+
+.textoLink {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.items li{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 90%;
+    margin: 1.5% 1.5%;
+    padding: 15px 15px 15px 15px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.items li:hover{
+    border: 5px solid #064070;
+    -webkit-text-stroke: 1.7px #064070;
+    transition: 500ms;
+    box-shadow: 8px 8px 25px 10px rgb(92, 83, 83);
+}
+
+.input-texto {
+    width: 70%;
+    height: 80%;
+    border: none;
+    color: rgba(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em;
+    background-color: rgba(180, 26, 26, 0.5);
+    margin: auto;
+    resize: none; /*no permite que se cambie el tamaño a la caja de texto */
+    outline: none;
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    display: block;
+}
+
+.input-texto::placeholder{
+    color: #9fd1fd;
+    font-weight: lighter;
+}
+
+.btn-enc {
+    display: block;
+    background: #064070;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    width: 50%;
+    margin: 3.5% 25%;
+    padding: 1em 5em 1em 5em;
+    box-sizing: border-box;
+    border: 3px solid rgb(172, 166, 166);
+    border-radius: 2em;
+    border-top-left-radius: 0;
+}
+
+.mensaje {
+    width: 70%;
+    height: 60%;
+    border: none;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em;
+    background-color: rgba(82, 80, 204, 0.5);
+    background-image: url("imagenes/imagen_mensaje.png");
+    filter: opacity(0.7);
+    margin: auto;
+    resize: none; /*no permite que se cambie el tamaño a la caja de texto */
+    outline: none;
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    display: block;
+}
+
+.btn-copiar {
+    background: rgb(230, 66, 66);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    width: 40%;
+    margin: 2% 30%;
+    padding: 1em 2em 1em 2em;
+    box-sizing: border-box;
+    border: 3px solid white;
+    border-radius: 2em;
+}
+
+.btn-des {
+    display: block;
+    background: rgb(172, 166, 166);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #064070;
+    font-size: 1em;
+    width: 50%;
+    margin: 6% 25%;
+    padding: 1em 3em 1em 3.5em;
+    box-sizing: border-box;
+    border: 3px solid white;
+    border-radius: 2em;
+    border-bottom-right-radius: 0;
+}
+
+.btn-enc:hover {
+    border: #064070;
+    transform: scale(1.1);
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.btn-des:hover {
+    border: rgb(172, 166, 166);
+    transform: scale(1.1);
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.btn-copiar:hover {
+    background: rgb(180, 21, 21);
+    transform: scale(1.1);
+    transition: 3s all;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 4em;
+}
+
+.copyright{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}

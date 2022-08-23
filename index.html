@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widht">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+        <!--Tipografia opcional: Roboto Mono-->
+    </head>
+ 
+    <body>
+
+        <header>
+            <div class="contenedor">  
+                <a class="logo" href="https://www.aluracursos.com/" target="_blank">
+                    <img src="imagenes/logo_Alura.png" alt="Logo de Alura">
+                </a>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="caja">
+                <div>
+                    <ul class="items">
+                    
+                        <li>
+                            <h2 class="tituloCajas">Challenger #1</h2>
+                            <p class="texto">Primer Reto Encriptador de Texto</p>
+                        </li>
+                        
+                        <li>
+                            <h3 class="tituloCajas">Autor</h3>
+                            <p class="texto">Natalia Cauda</p>
+                            <p class="texto">Trainee FullStack Web Developer</p>
+    
+                        </li>
+    
+                        <li>
+                            <h2 class="tituloCajas">Redes</h2>
+    
+                            <a class="textoLink" href="https://www.linkedin.com/in/natalia-evelyn-cauda/" target="_blank">Linkedin</a>
+    
+                            <p></p><a class="textoLink" href="https://app.aluracursos.com/user/ncauda" target="_blank">Perfil Alura</a></p>
+    
+                            <a class="textoLink" href="https://github.com/ncauda" target="_blank">GitHub</a>
+    
+                        </li>
+                    </ul>
+
+                </div>
+    
+            </section>
+    
+            <section>
+                <textarea class="input-texto" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <button class="btn-enc" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+            </section>
+    
+            <section>
+
+                <textarea class="mensaje" cols="40" rows="10"></textarea>
+                <button class="btn-copiar" onclick="btnCopiar()">
+                    Copiar
+                </button>
+                <button class="btn-des" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+
+            </section>
+    
+    
+        </main>
+
+        <footer>
+            <p class="copyright">&copy Copyright Natalia E. Cauda - 2022</p>
+        </footer>   
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
